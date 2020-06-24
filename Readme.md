@@ -24,7 +24,7 @@ How to use
 3. Once complete this will output a directory in 'image_output'
 4. If everything has functioned correctly then move on to video
 5. Convert video file to jpg sequence and render to the image input directory. be sure to empty this directory after each run
-6. Run 'neural_style_video.py' and follow instructions on how to proceed
+6. Run 'python neural_style_video.py' in cmd and follow instructions on how to proceed
 7. This will train on each image and render the output to the 'image_output' directory
 8. Once this is done put into video editing software andchange frame blending mode for extra smoothness
 
