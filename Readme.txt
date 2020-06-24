@@ -11,13 +11,15 @@ CV2 3.4.2
 CUDA 10.0.130
 CUDNN 7.6.5
 
+Download 'imagenet-vgg-verydeep-19.mat' and place this in the root directory of the ai-style folder
+
 Python 3+
 After effects (or any software that can frame blend)
 
 How to use
 
 1. Install pre requisites
-2. In cmd.exe cd to the directory of 'ai'
+2. In cmd.exe cd to the directory of 'ai-style'
 2. Run 'python neural_style.py --content_img test01 --style_img test01 --max_iterations 100 --max_size --verbose
 3. Once complete this will output a directory in 'image_output'
 4. If everything has functioned correctly then move on to video
